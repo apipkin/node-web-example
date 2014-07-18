@@ -4,7 +4,7 @@
   "description": "Simple Hello world example",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "jshint ./app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/apipkin/node-web-example",
   "dependencies": {
-    "hapi": "^6.2.0"
+    "hapi": "^6.2.0",
+    "jshint": "^2.5.2"
   }
 }
