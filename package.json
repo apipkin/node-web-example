@@ -6,6 +6,9 @@
   "scripts": {
     "pretest": "jshint ./app.js"
   },
+  "engines": {
+    "node": "0.10.x"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/apipkin/node-web-example.git"
