@@ -3,10 +3,16 @@ var Hapi = require('hapi'),
 
 server.route({
     method: 'GET',
-    path: '/',
+    path: '/{name?}',
     handler: function (req, res) {
-        res('Hello, world!');
+        res('Hello, ' + (req.params.name || 'world') + '!');
     }
 });
 
-server.start();
+if (!module.parent) {
+    server.start(function () {
+        console.log('Server started', server.info.uri);
+    });
+}
+
+module.exports = server;

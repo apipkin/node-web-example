@@ -4,7 +4,8 @@
   "description": "Simple Hello world example",
   "main": "app.js",
   "scripts": {
-    "pretest": "jshint ./app.js"
+    "pretest": "jshint ./app.js",
+    "test": "./node_modules/lab/bin/lab -c ./tests"
   },
   "engines": {
     "node": "0.10.x"
