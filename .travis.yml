@@ -4,4 +4,7 @@ node_js:
 deploy:
   provider: heroku
   api_key:
-    secure: FqcqeYwtv9w51+GZ4RymzupeQrKgz8DDufNRQjTDtAhUQlsj510aipzKF7IOxEA03kcjo+X5uyG5QG+f0McK/QI9kwPsmVOOPBFDfHqWt0MqlGGz5c+Wo6sAPl5YxE+KzY6irLH1tNMmJNAqdP1uWyOoHsUjULAZkdYexHuHVD4=
+    secure: cCVhsfInMKMbfc46cof3IuxkYvs0KjsOZVv9VioLCppZA/Fy+bmJx0hOJwRDGgSWipEo/OrPo8DlUKgIL3zyiAFyfDRIYn9jK3waLI6U6S0YueztknnjAUzIOt9hD7b4hQgzeiTELI29sUL0qlWKSMCcMYQzq7Ltn8emMR0BYQ4=
+  app: node-web-example
+  on:
+    repo: apipkin/node-web-example
