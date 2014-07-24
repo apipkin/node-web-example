@@ -2,9 +2,9 @@
   "name": "node-web-example",
   "version": "0.0.1",
   "description": "Simple Hello world example",
-  "main": "app.js",
+  "main": "./lib/app.js",
   "scripts": {
-    "pretest": "jshint ./app.js",
+    "pretest": "jshint ./lib/app.js",
     "test": "./node_modules/lab/bin/lab -c ./tests"
   },
   "engines": {
