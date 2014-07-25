@@ -22,6 +22,7 @@
   "homepage": "https://github.com/apipkin/node-web-example",
   "dependencies": {
     "hapi": "^6.2.0",
-    "jshint": "^2.5.2"
+    "jshint": "^2.5.2",
+    "lab": "^3.2.1"
   }
 }
